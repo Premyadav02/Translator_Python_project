@@ -1,0 +1,50 @@
+# this is experiment no.1.1 in python lab 
+#thats how we write a comment 
+
+# program to explain datatypes
+num1 = 27
+num2 = 2.89
+name = " janak"
+num_collection = (86,56,89,27,45)
+var = [56,"sharayu",27.3," study python "]
+
+details = {
+    " your name " : " janak ",
+    " age " : 19,
+    " college " : " bharathi vidyapeeth "
+}
+
+# we can get all datatypes of all variables using "type" function
+print(" datatype of num1 is : " , type(num1))
+print(" datatype of num2 is : " , type(num2))
+print(" datatype of name is : " , type(name))
+print(" datatype of num_collection is : " , type(num_collection))
+print(" datatype of var is : " , type(var))
+print(" datatype of details is : " , type(details))
+
+# understanding input output functions
+
+fname = input("\n enter your first name :")
+lname = input("\n enter your last name :")
+print(" namaskar "+ fname +lname)
+print(f" namaskar {fname} {lname}")
+
+#study expression 
+num3 = int(input("\n enter first number: "))
+num4 = int(input("\n enter second number: "))
+add = num3 + num4
+minus = num3 - num4
+mul = num3 * num4
+div = num3 / num4
+fldiv = num3 // num4
+expo = num3 ** num4
+mod = num3 % num4
+
+print(" addition of {0} and {1} is {2} ".format(num3,num4,add))
+print(" substraction of {0} and {1} is {2} ".format(num3,num4,minus))
+print(" multiplication of {0} and {1} is {2} ".format(num3,num4,mul))
+print(" division of {0} and {1} is {2} ".format(num3,num4,div))
+print(" floor division of {0} and {1} is {2} ".format(num3,num4,fldiv))
+print(" exponential of {0} and {1} is {2} ".format(num3,num4,expo))
+print(" modulus of {0} and {1} is {2} ".format(num3,num4,mod))
+
